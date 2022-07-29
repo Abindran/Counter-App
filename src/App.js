@@ -14,7 +14,7 @@ function App() {
         <button onClick={()=>count > 100 ? null : setCount(count + 1)}>Increase Counter</button>
         <button onClick={()=>count <= 0 ? null : setCount(count - 1)}>Decrease Counter</button>
         <button onClick={()=> setCount(0)}>Reset</button>
-    
+        <p>By-Abindran</p>
       </div>
     </div>
   );
